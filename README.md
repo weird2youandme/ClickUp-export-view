@@ -22,7 +22,7 @@ Rebuild Custom fields? The application will also ask if you would like to pull t
 Create a click up folder and place the program there and run it from command prompt. The result and custom json  will be placed in the same folder. I did not add the file logic so it assums everything in the same folder. 
 I included an executable version for those who want the application without the code. 
 
-#to use no python (windows exe)
+# To use no python (windows exe)
 Download the exe file and place in a file location. Run the exe and the custom fields json and resulting report will be placed in the same location. 
 
 ** This is a simple tool, I am not a developer so please do not critiscize my code. If anyone desires to fix it, that would be great. 
