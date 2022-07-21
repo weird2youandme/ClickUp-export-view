@@ -48,7 +48,7 @@ else:
     custom = ast.literal_eval(ct)
     cf.close()
 
-badlists = ['356837640','356837683'] # place items you would like to not report here - Perhaps look up lists etc...
+badlists = []
 spaces = {}
 
 payload={}                   
@@ -84,8 +84,11 @@ while True:
         quit()
 temp = response.json()
 
+
 if extra:
     rows = ['URL','Space','folder','list','id']
+else:
+    rows = []
 
 if tags:
     rows.append('tags')
@@ -313,6 +316,9 @@ while True:
                                         addCell(ws, fields[3])
                                     else:
                                         addCell(ws, custom['type_config']['options'][custom['value']]['name'])
+                                elif custom['type'] == 'location':
+                                    addCell(ws, custom['value']["formatted_address"]) 
+
                                 else:
                                     addCell(ws, custom['value'])
                             else:
