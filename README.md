@@ -1,8 +1,8 @@
 # ClickUp-export-view
-This python application calls ClickUp api using a view-id and builds a CSV file. This is helpful if you do not have a business version and are limited in ability to export. The application will ask for the users API key and 
+This python application calls ClickUp api using a view-id and builds an Excel file. This is helpful if you do not have a business version and are limited in ability to export. The application will ask for the users API key and 
 
 # Overview
-If you have a free or Unlimited account with ClickUp, you are limited in exporting excel files. This application pulls the details of a viw and places them in a CSV file which can be opened in excel. An excel version is coming soon.
+If you have a free or Unlimited account with ClickUp, you are limited in exporting excel files. This application pulls the details of a viw and creates a XLSX file. 
 
 The application requires the API key which you can get by going to settings->My APPS->Apps
 The application also requires the workspace id which is the number following the forward slash in the url. Example https://app.clickup.com/########/v
